@@ -1,10 +1,9 @@
 ## 1) Fundamentals of Testing
 
+
 ## 1.1) What is Testing?
 
 Software Test is a way to assess quality of the software, reducing the risks and failures in operation. 
-
-
 
 The test process includes activities such as:
 
@@ -16,7 +15,6 @@ evaluating the quality of a test object,
 verification of requirements, 
 user stories or other specifications,
 validation
-
 
 
 1.1.1) Typical Objectives of Testing
@@ -74,7 +72,6 @@ Testing: Test activities are part of overall software development or maintenance
 Testing contributes to the achievement of quality in a variety of ways.
 
 
-
 1.2.3 Errors, Defects, and Failures
 
 A person can make an error (mistake), which can lead to a defect (fault or bug) in the software. 
@@ -82,16 +79,11 @@ If a defect is executed, it MAY cause a failure, but not necessarily in all circ
 
 Errors, defects and failures are differents!
 
-
 Errors reasons: time pressure, human fallibility, insufficiently skilled, miscommunication, complexity of the code, complexity of design or architecture or technologies, misunderstanding about intra-system and inter-system interface
 
 Failure can also be caused by environmental conditions, changing hardware. Ex: pollution.
 
-
 Failure can be false negative or false positive.
-
-
-
 
 
 1.2.4 Defects, Root Causes and Effects
@@ -106,41 +98,32 @@ The client complainted about it!
 Product owner mistake is the root cause -> it caused a defect in the code -> it caused an effect, which is customer complaint
 
 
-
 ## 1.3 Seven Testing Principles 
 
 1) Testing shows the presence of defects, not their absence
 It can show that defects are present, but cannot prove that there are no defects.
 
-
 2) Exhaustive testing is impossible
 Testing everything (all combinations of inputs and preconditions) is impossible!
 It is necessary using techcniques to test efforts is better.
 
-
 3) Early testing saves time and money
 Find defects in static or dynamic test as early as possible helps to reduce or eliminate costly changes
-
 
 4) Defects cluster together
 A small number of modules usually contains most of the defects discovered during pre-release testing, or
 is responsible for most of the operational failures.
 Important to focus in the test effort!
 
-
 5) Beware of the pesticide paradox
-
 The same tests don't find any new defects.
 
 6) Testing is context dependent
 It is done differently in different contexts. 
 For example: testing in an Agile project is done differently than testing in a sequential software development lifecycle project.
 
-
-
 7) Absence-of-errors is a fallacy
 It is impossible to find all possible defects - look principles 2 and 1, respectively.
-
 
 
 ## 1.4 Test Process
