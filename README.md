@@ -1,1 +1,1 @@
-## My personal certified tester foundation level syllabus 2018 summary
+## My personal summary about the certified tester foundation level syllabus 2018
